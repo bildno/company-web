@@ -128,6 +128,17 @@
 }
 
 /* 섹션6 */
+ul{display: flex; flex-direction: row; justify-content: space-between;}
+li{display: flex; flex-direction: row; justify-content: space-between;}
+#di {width: 400px; height: 200px;}
+#bx {display: flex; flex-direction: row-reverse; width: 550px; }
+#box1 {margin: 5px; padding: 5px;}
+#box2 {margin: 5px; padding: 5px;}
+#box3 {margin: 5px; padding: 5px;}
+#row {display: flex; flex-direction: row; justify-content: space-between;}
+a:link {color: gray; text-decoration: none;}
+a:visited {color: gray; text-decoration: none;}
+
 
 /* footer */
 
