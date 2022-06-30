@@ -116,9 +116,15 @@
 /* 섹션3 */
 
 /* 섹션4 */
-
+.sec4img{
+  width: 200px;
+  height: 200px;
+}
 /* 섹션5 */
-
+.sec5img{
+  background-image: url('../img/visual01.jpg');
+  height: 250px;
+}
 
 /* 섹션6 */
 
