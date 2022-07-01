@@ -115,6 +115,14 @@
 /* 섹션2 */
 
 /* 섹션3 */
+#mb01 {width: 200px; height: 230px; margin: 10px;}
+#mb02 {width: 200px; height: 230px; margin: 10px;}
+#mb03 {width: 200px; height: 230px; margin: 10px;}
+#mb04 {width: 200px; height: 230px; margin: 10px;}
+#mp05 {margin: 10px; width: 470px; height: 480px;}
+.b2{display: flex; flex-direction:row;}
+.b1 {float: left; display: flex; flex-direction: row;}
+.B {display: flex; flex-direction: column;}
 
 /* 섹션4 */
 .sec4img{
