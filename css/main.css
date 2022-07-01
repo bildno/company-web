@@ -82,7 +82,7 @@
   position: absolute;
   background-color: rgb(17, 14, 14);
   min-width: 120px;
-  z-index: ;
+  z-index: 1;
   font-size: 12px;
   margin-top: -3px;
   margin-left: 30px;
