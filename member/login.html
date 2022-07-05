@@ -23,6 +23,13 @@
       $('#header').load("/header.html");     
       $('#footer').load("/footer.html");
     });
+    function showpopup(){
+    window.open("idFind.html","ID찾기","width=400, height=380, top=10, left=10")
+  }
+  
+  function showpopup2(){
+    window.open("passwordFind.html","Password찾기","width=400, height=380, top=10, left=10")
+  }
   </script>
 
 </head>
@@ -63,8 +70,8 @@
   <span><input type="image" src="/img/member/btn_login.gif"></span>
   </div>
   <div style="padding-bottom: 50px; padding-top: 30px;">
-  <span>-아이디를 잊으셨나요?</span><input type="image" src="/img/member/btn_id_find.gif"><br>
-  <span>-비밀번호를 잊으셨나요?</span><input type="image" src="/img/member/btn_pw_find.gif">
+  <span>-아이디를 잊으셨나요?</span><input type="image" src="/img/member/btn_id_find.gif" onclick="showpopup()"><br>
+  <span>-비밀번호를 잊으셨나요?</span><input type="image" src="/img/member/btn_pw_find.gif" onclick="showpopup2()">
   </div>
   </div>
   
