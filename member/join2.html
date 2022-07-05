@@ -23,8 +23,26 @@
       $('#header').load("/header.html");     
       $('#footer').load("/footer.html");
 
-
     });
+
+    function agree() {
+      var check = document.getElementsByTagName('input');
+      for(i=0; i<check.length; i++) {
+        if(check[i].checked == false)
+        {alert("모두 체크되어 있지 않습니다."); return;}
+      };  
+
+      window.open ("join3.html", "jon")
+ 
+    };
+
+
+    function checkBack () {
+      var un_chArray = document.getElementsByTagName('input');
+      for(i=0; i<un_chArray.length; i++) {
+        un_chArray[i].checked == false;
+      };
+    };
 
   </script>
 
@@ -447,7 +465,7 @@
   </div>
 
 <div class="text-center" style="margin-bottom: 50px;">
-<img src="/img/member/btn_join.gif" alt="" style="cursor: pointer;" onclick="check()">
+<a href="javascript:agree();"><img src="/img/member/btn_join.gif" alt="" style="cursor: pointer;" ></a>
 </div>
 
   <!-- 푸터 -->

@@ -84,7 +84,7 @@
   min-width: 120px;
   z-index: 1;
   font-size: 12px;
-  margin-top: -3px;
+  margin-top: 30px;
   margin-left: 30px;
 }
 .dropdown-content a {
@@ -124,6 +124,7 @@
 .b2{display: flex; flex-direction:row;}
 .b1 {float: left; display: flex; flex-direction: row;}
 .B {display: flex; flex-direction: column;}
+
 
 
 .proMain {
@@ -220,6 +221,10 @@
   background-color: rgba(0, 0, 0, 0);
   color: white;
 }
+
+
+
+
 /* 섹션4 */
 .businessMain {
   padding-top: 60px;
