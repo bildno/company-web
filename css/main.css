@@ -52,7 +52,7 @@
 } */
 
 .topMenu .home {
-  background-image: url(/img/home01.png);
+  background-image: url(../img/home01.png);
   background-repeat: no-repeat;
   background-position: -10% -50%;
 }
